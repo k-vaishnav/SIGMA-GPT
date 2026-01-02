@@ -1,0 +1,63 @@
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.credentials-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    gap:10px;
+}
+
+.credentials-form input {
+    border:none;
+    border-bottom: solid 1px #b4b4b4;
+    background-color: #ddd;
+    color: #323232;
+    padding: 0.6rem;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+
+.credentials-form input::placeholder {
+    color: #b4b4b4;
+}
+
+.credentials-form input:focus {
+    outline: none;
+}
+
+.credentials-form button {
+    width:5rem;
+    height:2rem;
+    padding:0.2rem;
+    border: 1px solid #b4b4b4;
+    border-bottom: solid 2px #b4b4b4;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credentials-form button:hover {
+    background-color: #323232;
+    border: 1px solid #b4b4b4;
+    border-bottom: solid 2px #b4b4b4a0;
+}
+.message {
+    color:white;
+    background-color: #3fbd69;
+    border:1px solid #0aad6c;
+    padding:1rem;
+    border-radius: 0.5rem;
+    margin:1rem;
+    font-size: larger;
+}
