@@ -8,7 +8,7 @@ export const loginUser = async (email,password) =>{
         },
         body: JSON.stringify({ email, password }),
     }
-    const res = await fetch(`${API_URL}/auth/login`,config);
+    const res = await fetch(`${API_URL}/api/auth/login`,config);
     const data = await res.json();
     return data;
 }
@@ -21,7 +21,7 @@ export const registerUser = async(name,email,password) =>{
         },
         body: JSON.stringify({ name,email,password }),
     }
-    const res = await fetch(`${API_URL}/auth/register`,config);
+    const res = await fetch(`${API_URL}/api/auth/register`,config);
     const data = await res.json();
     return data;
 }

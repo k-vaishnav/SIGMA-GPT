@@ -36,7 +36,7 @@ const ChatWindow = () => {
 
     const fetchThread = async (threadId) => {
       try {
-        const response = await fetch(`${API_URL}/thread/${threadId}`, {
+        const response = await fetch(`${API_URL}/api/thread/${threadId}`, {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
           },
@@ -60,7 +60,7 @@ const ChatWindow = () => {
       threadId
     };
     try {
-      const { data } = await axios.post(`${API_URL}/chat`, body, {
+      const { data } = await axios.post(`${API_URL}/api/chat`, body, {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`,
         },

@@ -18,7 +18,7 @@ const Sidebar = () => {
 
   const getAllThreads = async () => {
     try {
-      const response = await fetch(`${API_URL}/threads`, {
+      const response = await fetch(`${API_URL}/api/threads`, {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`,
         },
@@ -53,7 +53,7 @@ const Sidebar = () => {
 
   const deleteThread = async (threadtoDelete) => {
     try {
-      const response = await fetch(`${API_URL}/thread/${threadtoDelete}`, {
+      const response = await fetch(`${API_URL}/api/thread/${threadtoDelete}`, {
         method: "DELETE",
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`,

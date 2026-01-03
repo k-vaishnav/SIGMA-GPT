@@ -6,7 +6,7 @@ const Settings = () => {
   const navigate = useNavigate();
   const { setNewChat, setPrevChats, setAllThreads } = useValues();
   const handleDelete = async () => {
-    const response = await fetch(`${API_URL}/threads`, {
+    const response = await fetch(`${API_URL}/api/threads`, {
       method: "DELETE",
       headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
     });
