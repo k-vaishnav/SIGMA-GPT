@@ -2,6 +2,7 @@ import "./Sidebar.css";
 import { useValues } from "./context/ContextProvider";
 import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
+import blackLogo from "./assets/blacklogo.png";
 const API_URL = import.meta.env.VITE_API_URL;
 const Sidebar = () => {
   const navigate = useNavigate();
@@ -75,11 +76,7 @@ const Sidebar = () => {
   return (
     <section className="sidebar">
       <button onClick={createNewChat}>
-        <img
-          src="src/assets/blacklogo.png"
-          className="logo"
-          alt="GPT logo"
-        ></img>
+        <img src={blackLogo} className="logo" alt="GPT logo" />
         <span>
           <i className="fa-solid fa-pen-to-square"></i>
         </span>
