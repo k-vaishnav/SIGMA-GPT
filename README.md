@@ -14,6 +14,15 @@
 ## 🎯 Why this project matters:
 Sigma GPT demonstrates real-world frontend + backend integration, scalable state management, API design, and authentication—making it a strong portfolio project for Frontend Engineer, Full-Stack Developer, and Software Engineer roles.
 
+🌐 Live Demo: https://sigma-gpt-one.vercel.app/
+⚠️ Note: Backend is hosted on Render free tier — initial requests may take 20–30 seconds.
+
+## 🔍 Quick Demo
+- Create an account and log in
+- Start a new chat thread
+- Ask a question and receive AI responses
+- Switch between threads using the sidebar
+
 ## 🧠 Problem Statement
 
 Modern AI chat applications require:
@@ -144,7 +153,7 @@ These improvements are intentionally listed to encourage contributions and long-
 ### 👨‍💻 Author
 
 **Vaishnav Komal**
-Aspiring Full-Stack Developer
+Full-Stack Developer (MERN) | 2025 B.Tech Graduate
 GitHub: https://github.com/k-vaishnav
 
 ### ⭐ Final Note for Recruiters
