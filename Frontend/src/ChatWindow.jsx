@@ -28,7 +28,7 @@ const ChatWindow = () => {
   const location = useLocation();
 
   useEffect(() => {
-    if (!currThreadId) {
+    if (!currThreadId && prevChats.length === 0) {
       setNewChat(true);
       setPrevChats([]);
       return
@@ -87,7 +87,6 @@ const ChatWindow = () => {
       ]);
     }
     setPrompt("");
-    setNewChat(false);
   }, [reply]);
 
   const handleSettings = () => {
