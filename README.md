@@ -14,7 +14,7 @@
 ## 🎯 Why this project matters:
 Sigma GPT demonstrates real-world frontend + backend integration, scalable state management, API design, and authentication—making it a strong portfolio project for Frontend Engineer, Full-Stack Developer, and Software Engineer roles.
 
-🌐 Live Demo: https://sigma-gpt-one.vercel.app/
+🌐 Live Demo: https://sigma-gpt-mpyo.vercel.app/
 ⚠️ Note: Backend is hosted on Render free tier — initial requests may take 20–30 seconds.
 
 ## 🔍 Quick Demo
